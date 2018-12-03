@@ -26,5 +26,5 @@ services:
     ports:
       - "5050:80"
     volumes:
-      - $HOME/Documents/Docker/postgres/pgadmin:/etc/pgadmin
-      - $HOME/Documents/Docker/postgres/lib/pgadmin:/var/lib/pgadmin
+#     - $HOME/Documents/Docker/postgres/pgadmin:/etc/pgadmin
+      - $HOME/Documents/Docker/postgres/pgadmin:/var/lib/pgadmin
