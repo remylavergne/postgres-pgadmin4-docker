@@ -13,7 +13,7 @@ services:
     ports:
       - "5432:5432"
     volumes:
-      - $HOME/Documents/Docker/postgres/postgresql:/etc/postgresql
+      - $HOME/Documents/Docker/postgres/postgresql:/var/lib/postgresql/data
 
 
   # pgadmin4 latest
@@ -27,3 +27,4 @@ services:
       - "5050:80"
     volumes:
       - $HOME/Documents/Docker/postgres/pgadmin:/etc/pgadmin
+      - $HOME/Documents/Docker/postgres/lib/pgadmin:/var/lib/pgadmin
