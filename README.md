@@ -1,16 +1,16 @@
 # postgres-pgadmin4-docker
 Create two containers to handle **PostgreSQL** and **pgAdmin4** with persistence.
 
-1. Launch containers
+1. Edit your pgadmin4 login informations in docker-compose.yml file
 
-At the root project :
+2. Start containers
 
+In the root project :
 ```
 docker-compose up
 ```
 
-2. Launch pgAdmin4 :
+3. Access to pgAdmin4 :
 ```
 http://localhost:5050/
 ```
-- Mail & Password in the docker-compose.yml
